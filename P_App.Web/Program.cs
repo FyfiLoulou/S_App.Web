@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hamburgerr");
+            Console.WriteLine("test hot dog");
         }
     }
 }
