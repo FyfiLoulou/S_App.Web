@@ -8,7 +8,7 @@
         // 0C -> 273,15K 
         public void CAK(double celcius)
         {
-            double kelvin = celcius + 273,15;
+            double kelvin = celcius + 273.15;
 
             Console.WriteLine(celcius + "°C = " + kelvin + " Kelvin");
         }
@@ -23,10 +23,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("test hot dog");
-            Celcius c = new Celcius();
 
-            CAK(0);
-            CAF(0);
+            
         }
     }
 }
