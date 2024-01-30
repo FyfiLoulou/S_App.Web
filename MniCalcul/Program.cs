@@ -19,7 +19,6 @@ namespace MniCalcul
         public void run()
         {
             intro();
-            saisi();
         }
 
         public void intro()
@@ -33,26 +32,9 @@ namespace MniCalcul
             Console.WriteLine("4. Division");
         }
 
-        public int saisi()
-        {
-            string? a = Console.ReadLine();
-            int b;
-            while (!int.TryParse(a, out b))
-            {
-                Console.WriteLine("Retry");
-                a = Console.ReadLine();
-            }
-            return validation(b);
-        }
+        
 
-        public int validation(int a)
-        {
-            if (0 < a && a < 5)
-            {
-                return a;
-            }
-            else return -1;
-        }
+        
 
 
 
