@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P_App.Web", "P_App.Web\P_App.Web.csproj", "{0853BC53-C016-44B5-9495-6CD0618C2377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convertiseur", "Convertiseur\Convertiseur.csproj", "{95DED982-8C0D-4994-A7E0-C1732929A606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convertiseur", "Convertiseur\Convertiseur.csproj", "{95DED982-8C0D-4994-A7E0-C1732929A606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MniCalcul_FB", "MniCalcul\MniCalcul_FB.csproj", "{A54831E5-1AEB-460C-8764-C64DC65186E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{95DED982-8C0D-4994-A7E0-C1732929A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DED982-8C0D-4994-A7E0-C1732929A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DED982-8C0D-4994-A7E0-C1732929A606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54831E5-1AEB-460C-8764-C64DC65186E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54831E5-1AEB-460C-8764-C64DC65186E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54831E5-1AEB-460C-8764-C64DC65186E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54831E5-1AEB-460C-8764-C64DC65186E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
