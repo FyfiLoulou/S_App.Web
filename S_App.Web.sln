@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P_App.Web", "P_App.Web\P_Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convertiseur", "Convertiseur\Convertiseur.csproj", "{95DED982-8C0D-4994-A7E0-C1732929A606}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniCalcul", "MiniCalcul\MiniCalcul.csproj", "{3C52A3BC-C61A-4E35-B6F7-1666B9A6BE69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produits", "Produits\Produits.csproj", "{72218EE6-BFEF-45EA-93CA-2E281D8485E2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
