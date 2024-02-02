@@ -1,4 +1,6 @@
-﻿namespace Produits
+﻿using System.Reflection.Metadata;
+
+namespace Produits
 {
     internal class Produit
     {
@@ -41,6 +43,19 @@
         public void setQteRupture(int qteRupture) { this.qteRupture = qteRupture; }
         public void setTaxable(Boolean taxable) { this.taxable = taxable; }
 
+        public override string ToString()
+        {
+            return "Numéro du produit: " + noProduit
+                + "\nNom du produit: " + nomProduit
+                + "\nDescription: " + description
+                + "\nPrix: " + prix + "$"
+                + "\nQuantité: " + quantite
+                + "\nQuantité de la rupture: " + qteRupture
+                + "\nTaxable: " + taxable;
+        }
+
+        
+
 
 
 
@@ -52,7 +67,7 @@
 
             Produit rtx = new Produit(1,"RTX4090ti");
 
-            Console.WriteLine(rtx.prix);
+            Console.WriteLine(rtx);
 
         }
     }
