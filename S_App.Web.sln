@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convertiseur", "Convertiseu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MniCalcul_FB", "MniCalcul\MniCalcul_FB.csproj", "{A54831E5-1AEB-460C-8764-C64DC65186E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{45DCA74C-D8AC-49B4-859C-6F21223446AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{45DCA74C-D8AC-49B4-859C-6F21223446AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vecteur", "Vecteur\Vecteur.csproj", "{CAA5C70A-B6B7-4504-BE28-7338B2FB7E3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vecteur", "Vecteur\Vecteur.csproj", "{CAA5C70A-B6B7-4504-BE28-7338B2FB7E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{B6A61138-75F0-45AB-87E6-FF195030DA62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CAA5C70A-B6B7-4504-BE28-7338B2FB7E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA5C70A-B6B7-4504-BE28-7338B2FB7E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA5C70A-B6B7-4504-BE28-7338B2FB7E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A61138-75F0-45AB-87E6-FF195030DA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A61138-75F0-45AB-87E6-FF195030DA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A61138-75F0-45AB-87E6-FF195030DA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A61138-75F0-45AB-87E6-FF195030DA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
