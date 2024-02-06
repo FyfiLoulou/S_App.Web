@@ -13,6 +13,11 @@ namespace Produits
         private int qteRupture;
         private Boolean taxable;
 
+        private double PRIX_MIN = 0;
+        private double PRIX_MAX = 500;
+        private int QTE_MIN = 0;
+        private int QTE_MAX = 200;
+
         //constructor
         public Produit(int noProduits, String nomProduits)
         {
@@ -38,8 +43,27 @@ namespace Produits
         public void setNoProduit(int noProduit) { this.noProduit = noProduit; }
         public void setNomProduit(String nomProduit) { this.nomProduit = nomProduit; }
         public void setDescription(String description) { this.description = description; }
-        public void setPrix(double prix) { this.prix = prix; }
-        public void setQuantite(int quantite) { this.quantite = quantite; }
+        public void setPrix(double prix) 
+        { 
+            if (prix >= PRIX_MIN && prix <= PRIX_MAX) { this.prix = prix; }
+
+            else if (prix < PRIX_MIN) { Console.WriteLine("\n!!!prix trop petit!!!\n");}
+
+            else if (prix > PRIX_MAX){ Console.WriteLine("\n!!!prix trop grand!!!\n");}
+
+            else { Console.WriteLine("\n!!!Erreur!!!\n");}
+             
+        }
+        public void setQuantite(int quantite) 
+        {
+            if (quantite >= QTE_MIN && quantite <= QTE_MAX) { this.quantite = quantite; }
+
+            else if (quantite < QTE_MIN) { Console.WriteLine("\n!!!quantite trop petit!!!\n"); }
+
+            else if (quantite > QTE_MAX) { Console.WriteLine("\n!!!quantite trop grand!!!\n"); }
+
+            else { Console.WriteLine("\n!!!Erreur!!!\n"); }
+        }
         public void setQteRupture(int qteRupture) { this.qteRupture = qteRupture; }
         public void setTaxable(Boolean taxable) { this.taxable = taxable; }
 
@@ -52,7 +76,8 @@ namespace Produits
                 + "\nPrix: " + prix + "$"
                 + "\nQuantité: " + quantite
                 + "\nQuantité de la rupture: " + qteRupture
-                + "\nTaxable: " + taxable;
+                + "\nTaxable: " + taxable
+                + "\nValeur en stock: " + total() + "$";
         }
 
         //méthodes
@@ -71,14 +96,14 @@ namespace Produits
 
             Produit rtx = new Produit(1, "RTX4090ti");
             rtx.setDescription("Carte graphique");
-            rtx.setPrix(2999.99);
-            rtx.setQuantite(1000);
+            rtx.setPrix(500);
+            rtx.setQuantite(20);
             rtx.setTaxable(true);
 
 
             Console.WriteLine(rtx);
             
-            Console.WriteLine(rtx.total());
+            
 
 
         }
